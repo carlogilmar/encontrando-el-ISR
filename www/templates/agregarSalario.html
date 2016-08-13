@@ -1,0 +1,77 @@
+<ion-view style="" class=" " id="page2" title="Agregar Salario">
+    <ion-content class="has-header" padding="true">
+      <h2 align="center"><b>Encontrando el ISR</b><BR></h2>
+        <h4 align="center"><b>BIENVENIDO</b><BR></h4>
+<center><img src="img/ionic.png" style="width: 130px; height: 130px"></center><br>
+<center>Version 1.16.06 desarrollada por @karlosins</center>
+<form class="list " id="formulario1" action="javascript:salario()">
+<div class="list card">
+
+
+    <label class="item item-input item-stacked-label">
+      <i class="icon ion-person-stalker"></i>
+      <span class="input-label">Nombre</span>
+      <input type="text" id="name">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <i class="icon ion-leaf"></i>
+      <span class="input-label">Ejercicio</span>
+      <input type="number" placeholder="2016">
+    </label>
+
+
+</div>
+
+
+
+
+            <label name="sala"  class="item item-input item-stacked-label ">
+                <i class="icon ion-social-buffer"></i><span class="input-label">Salario Total</span>
+                <input id="salario" placeholder="" type="number" required>
+            </label>
+            <label name="salExe"  class="item item-input item-stacked-label ">
+                <i class="icon ion-social-buffer"></i><span class="input-label">Salario Exento</span>
+                <input  id="exento" placeholder="" type="number" required>
+            </label>
+            <label name="subs"  class="item item-input item-stacked-label ">
+                <i class="icon ion-social-buffer"></i><span class="input-label">Subsidio del Empleo</span>
+                <input id="subsidio" placeholder="" type="number" required>
+            </label>
+            <label  class="item item-input item-stacked-label ">
+                <i class="icon ion-social-buffer"></i><span class="input-label">Impuesto Retenido</span>
+                <input id="retenido" placeholder="" type="number" required>
+            </label>
+
+        <button class=" button button-positive  button-block " id="agregarSalario-button6"
+        >AGREGAR SALARIO</button></form>
+<hr>
+<center><b>DATOS</b></center>
+
+<div class="list card">
+
+  <a  class="item item-icon-left">
+    <i class="ion-ios-checkmark-empty"></i>
+    Salario ingresado<div id="uno">0000</div>
+  </a>
+  <a  class="item item-icon-left">
+    <i class="ion-ios-checkmark-empty"></i>
+    Salario exento<div id="dos">0000</div>
+  </a>
+  <a  class="item item-icon-left">
+    <i class="ion-ios-checkmark-empty"></i>
+    Subsidio<div id="tres">0000</div>
+  </a>
+  <a  class="item item-icon-left">
+    <i class="ion-ios-checkmark-empty"></i>
+    Impuestos Retenidos<div id="cuatro">0000</div>
+  </a>
+  <a  class="item item-icon-left">
+    <i class="ion-ios-checkmark-empty"></i>
+    Monto Máximo deducible:<div id="nueve">0000</div>
+  </a>
+
+
+</div>
+
+    </ion-content>
+</ion-view>
